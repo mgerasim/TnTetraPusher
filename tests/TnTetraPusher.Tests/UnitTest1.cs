@@ -56,9 +56,7 @@ namespace TnTetraPusher.Tests
             {
                 Body = body,
             };
-
-            
-
+                        
             using (var stringwriter = new System.IO.StringWriter())
             {
                 XmlSerializer serializer = new XmlSerializer(typeof(Content));
